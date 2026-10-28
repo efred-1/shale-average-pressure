@@ -1,0 +1,79 @@
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+  N           method    n  fail   bias  mae_rel  p90_rel  mae_psi  within10  within25  coverage  width_rel  mae_rel_sd  cov_sd
+ 24            proxy 2976 0.000 -0.712    0.712    0.899  858.232     0.012     0.048       NaN        NaN       0.012     NaN
+ 24           horner 2976 0.000 -0.287    0.430    0.811  345.482     0.115     0.292       NaN        NaN       0.020     NaN
+ 24              fmb 2976 0.066 -0.242    0.406    1.358  313.997     0.114     0.288       NaN        NaN       0.010     NaN
+ 24             sqrt 2976 0.066  0.226    0.466    1.556  367.004     0.114     0.277       NaN        NaN       0.050     NaN
+ 24             slab 2976 0.066  0.516    0.659    2.348  560.397     0.079     0.194       NaN        NaN       0.027     NaN
+ 24          ml_data 2976 0.000 -0.001    0.175    0.468  150.215     0.301     0.655       NaN        NaN       0.003     NaN
+ 24          ml_phys 2976 0.000  0.001    0.159    0.426  129.357     0.342     0.700       NaN        NaN       0.008     NaN
+ 24 ml_phys_interval 2976   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.800      0.665         NaN   0.025
+ 72            proxy 2981 0.000 -0.579    0.584    0.826  695.394     0.049     0.125       NaN        NaN       0.014     NaN
+ 72           horner 2981 0.000 -0.115    0.376    0.972  212.345     0.128     0.337       NaN        NaN       0.012     NaN
+ 72              fmb 2981 0.069 -0.234    0.409    1.478  316.431     0.111     0.279       NaN        NaN       0.013     NaN
+ 72             sqrt 2981 0.070  0.023    0.365    0.973  278.136     0.134     0.339       NaN        NaN       0.026     NaN
+ 72             slab 2981 0.069  0.377    0.533    1.729  414.445     0.100     0.237       NaN        NaN       0.030     NaN
+ 72          ml_data 2981 0.000  0.009    0.157    0.423  128.020     0.342     0.698       NaN        NaN       0.007     NaN
+ 72          ml_phys 2981 0.000  0.003    0.144    0.402  119.896     0.366     0.743       NaN        NaN       0.004     NaN
+ 72 ml_phys_interval 2981   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.801      0.621         NaN   0.023
+168            proxy 2985 0.000 -0.449    0.473    0.763  530.613     0.070     0.202       NaN        NaN       0.014     NaN
+168           horner 2985 0.000  0.021    0.366    1.310  214.726     0.146     0.361       NaN        NaN       0.019     NaN
+168              fmb 2985 0.071 -0.234    0.412    1.404  311.013     0.109     0.283       NaN        NaN       0.016     NaN
+168             sqrt 2985 0.071 -0.125    0.331    0.787  257.240     0.152     0.359       NaN        NaN       0.017     NaN
+168             slab 2985 0.071  0.275    0.454    1.421  334.135     0.125     0.291       NaN        NaN       0.040     NaN
+168          ml_data 2985 0.000  0.011    0.147    0.399  119.371     0.364     0.742       NaN        NaN       0.005     NaN
+168          ml_phys 2985 0.000  0.008    0.139    0.379  112.164     0.382     0.752       NaN        NaN       0.008     NaN
+168 ml_phys_interval 2985   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.819      0.614         NaN   0.024
+      set   N           method   n  fail   bias  mae_rel  p90_rel  mae_psi  within10  within25  coverage  width_rel
+nonlinear  24            proxy 160 0.000 -0.790    0.790    0.927 1086.524     0.000     0.000       NaN        NaN
+nonlinear  24           horner 160 0.000 -0.512    0.512    0.807  690.126     0.075     0.212       NaN        NaN
+nonlinear  24              fmb 160 0.069 -0.024    0.399    2.045  491.569     0.125     0.325       NaN        NaN
+nonlinear  24             sqrt 160 0.069  0.131    0.480    1.130  631.805     0.062     0.212       NaN        NaN
+nonlinear  24             slab 160 0.069  0.364    0.621    2.191  718.301     0.075     0.200       NaN        NaN
+nonlinear  24          ml_data 160 0.000 -0.133    0.316    0.562  293.638     0.169     0.412       NaN        NaN
+nonlinear  24          ml_phys 160 0.000  0.017    0.269    0.701  339.715     0.188     0.456       NaN        NaN
+nonlinear  24 ml_phys_interval 160   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.644      0.640
+nonlinear  72            proxy 160 0.000 -0.694    0.694    0.871  961.492     0.006     0.025       NaN        NaN
+nonlinear  72           horner 160 0.000 -0.337    0.385    0.729  470.768     0.131     0.312       NaN        NaN
+nonlinear  72              fmb 160 0.062 -0.005    0.435    1.619  548.499     0.100     0.250       NaN        NaN
+nonlinear  72             sqrt 160 0.062 -0.036    0.379    0.785  494.441     0.125     0.306       NaN        NaN
+nonlinear  72             slab 160 0.062  0.270    0.488    1.617  613.522     0.113     0.225       NaN        NaN
+nonlinear  72          ml_data 160 0.000 -0.134    0.240    0.511  248.456     0.244     0.512       NaN        NaN
+nonlinear  72          ml_phys 160 0.000  0.036    0.244    0.613  270.942     0.225     0.519       NaN        NaN
+nonlinear  72 ml_phys_interval 160   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.662      0.601
+nonlinear 168            proxy 160 0.000 -0.589    0.589    0.815  780.594     0.006     0.075       NaN        NaN
+nonlinear 168           horner 160 0.000 -0.240    0.322    0.668  353.079     0.175     0.412       NaN        NaN
+nonlinear 168              fmb 160 0.069  0.053    0.450    2.178  558.762     0.119     0.256       NaN        NaN
+nonlinear 168             sqrt 160 0.069 -0.133    0.344    0.687  412.095     0.188     0.338       NaN        NaN
+nonlinear 168             slab 160 0.069  0.237    0.463    1.249  506.551     0.081     0.250       NaN        NaN
+nonlinear 168          ml_data 160 0.000 -0.181    0.243    0.533  264.743     0.219     0.519       NaN        NaN
+nonlinear 168          ml_phys 160 0.000  0.023    0.221    0.571  288.447     0.188     0.575       NaN        NaN
+nonlinear 168 ml_phys_interval 160   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.669      0.589
+   extrap  24            proxy 199 0.000 -0.709    0.709    0.851 1598.217     0.000     0.000       NaN        NaN
+   extrap  24           horner 199 0.000 -0.274    0.278    0.598  614.755     0.121     0.427       NaN        NaN
+   extrap  24              fmb 199 0.050 -0.176    0.241    0.701  427.936     0.216     0.487       NaN        NaN
+   extrap  24             sqrt 199 0.050  0.964    0.964    2.844 1451.972     0.045     0.131       NaN        NaN
+   extrap  24             slab 199 0.050  1.210    1.210    3.779 2115.304     0.035     0.106       NaN        NaN
+   extrap  24          ml_data 199 0.000  0.143    0.186    0.544  364.486     0.317     0.613       NaN        NaN
+   extrap  24          ml_phys 199 0.000  0.106    0.170    0.494  288.754     0.347     0.653       NaN        NaN
+   extrap  24 ml_phys_interval 199   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.754      0.672
+   extrap  72            proxy 199 0.000 -0.574    0.574    0.748 1269.028     0.000     0.020       NaN        NaN
+   extrap  72           horner 199 0.000 -0.111    0.204    0.483  336.808     0.291     0.598       NaN        NaN
+   extrap  72              fmb 199 0.055 -0.133    0.235    0.641  364.422     0.221     0.487       NaN        NaN
+   extrap  72             sqrt 199 0.055  0.494    0.534    1.805 1064.893     0.080     0.206       NaN        NaN
+   extrap  72             slab 199 0.055  0.990    0.990    2.850 1757.366     0.035     0.121       NaN        NaN
+   extrap  72          ml_data 199 0.000  0.163    0.192    0.517  359.825     0.281     0.598       NaN        NaN
+   extrap  72          ml_phys 199 0.000  0.148    0.170    0.483  361.437     0.291     0.648       NaN        NaN
+   extrap  72 ml_phys_interval 199   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.729      0.646
+   extrap 168            proxy 199 0.000 -0.447    0.447    0.642 1024.608     0.015     0.070       NaN        NaN
+   extrap 168           horner 199 0.000 -0.016    0.174    0.423  270.512     0.307     0.704       NaN        NaN
+   extrap 168              fmb 199 0.050 -0.203    0.257    0.665  374.420     0.186     0.472       NaN        NaN
+   extrap 168             sqrt 199 0.050  0.186    0.424    1.126  813.649     0.116     0.307       NaN        NaN
+   extrap 168             slab 199 0.050  0.771    0.771    2.467 1283.358     0.055     0.141       NaN        NaN
+   extrap 168          ml_data 199 0.000  0.151    0.170    0.517  330.892     0.312     0.643       NaN        NaN
+   extrap 168          ml_phys 199 0.000  0.160    0.175    0.489  353.393     0.312     0.613       NaN        NaN
+   extrap 168 ml_phys_interval 199   NaN    NaN      NaN      NaN      NaN       NaN       NaN     0.698      0.605

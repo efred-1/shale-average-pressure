@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+# duplicate model file written when the notebook is re-run
+05_Code/outputs/models_final_rerun.pkl

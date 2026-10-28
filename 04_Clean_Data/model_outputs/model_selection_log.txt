@@ -1,0 +1,52 @@
+validation score of physics estimators (median |rel err| + NaN fraction): {'horner': 0.3620537940659861, 'fmb': 0.45372140241267367, 'sqrt': 0.42680220807697933, 'slab': 0.5949855139482565} -> base = horner
+best ML-D {'lr': 0.08, 'leaves': 63, 'msl': 10, 'l2': 1.0} 0.14967775250384924  best ML-P {'lr': 0.03, 'leaves': 31, 'msl': 30, 'l2': 1.0} 0.14266160082134668
+conformal widening of the 10-90 band (log units): 0.067
+         set   N                   method   n  fail   bias  mae_rel  p90_rel  mae_psi  within10
+        test  24                    proxy 446 0.000 -0.739    0.739    0.906 1175.338     0.016
+        test  24                   horner 446 0.000 -0.336    0.479    0.844  486.302     0.078
+        test  24                      fmb 446 0.085 -0.300    0.424    1.144  394.363     0.103
+        test  24                     sqrt 446 0.085  0.172    0.489    1.691  539.707     0.103
+        test  24                     slab 446 0.085  0.463    0.650    2.359  599.825     0.072
+        test  24                  ml_data 446 0.000  0.004    0.178    0.451  161.853     0.334
+        test  24                  ml_phys 446 0.000 -0.002    0.172    0.419  149.922     0.339
+        test  24 ml_phys_P10-P90_coverage 446   NaN    NaN      NaN      NaN      NaN     0.780
+        test  72                    proxy 448 0.000 -0.601    0.604    0.836  990.053     0.054
+        test  72                   horner 448 0.000 -0.146    0.423    1.108  257.024     0.143
+        test  72                      fmb 448 0.078 -0.233    0.425    1.671  397.445     0.109
+        test  72                     sqrt 448 0.078  0.002    0.403    0.985  338.147     0.138
+        test  72                     slab 448 0.078  0.351    0.541    1.745  491.552     0.087
+        test  72                  ml_data 448 0.000  0.018    0.171    0.409  179.415     0.357
+        test  72                  ml_phys 448 0.000  0.006    0.145    0.384  135.904     0.395
+        test  72 ml_phys_P10-P90_coverage 448   NaN    NaN      NaN      NaN      NaN     0.801
+        test 168                    proxy 448 0.000 -0.464    0.492    0.788  765.095     0.054
+        test 168                   horner 448 0.000 -0.032    0.381    1.420  223.127     0.165
+        test 168                      fmb 448 0.076 -0.264    0.429    1.190  424.765     0.096
+        test 168                     sqrt 448 0.076 -0.186    0.345    0.786  343.611     0.134
+        test 168                     slab 448 0.076  0.189    0.439    1.290  403.777     0.121
+        test 168                  ml_data 448 0.000  0.009    0.153    0.398  160.206     0.342
+        test 168                  ml_phys 448 0.000  0.008    0.141    0.373  145.613     0.384
+        test 168 ml_phys_P10-P90_coverage 448   NaN    NaN      NaN      NaN      NaN     0.815
+main_pierr15  24                    proxy 446 0.000 -0.739    0.739    0.906 1175.338     0.016
+main_pierr15  24                   horner 446 0.000 -0.336    0.479    0.844  486.302     0.078
+main_pierr15  24                      fmb 446 0.110 -0.296    0.479    1.833  441.026     0.096
+main_pierr15  24                     sqrt 446 0.110  0.159    0.480    1.688  535.661     0.096
+main_pierr15  24                     slab 446 0.110  0.455    0.646    2.465  584.142     0.087
+main_pierr15  24                  ml_data 446 0.000  0.002    0.190    0.469  166.894     0.314
+main_pierr15  24                  ml_phys 446 0.000 -0.007    0.169    0.456  157.503     0.305
+main_pierr15  24 ml_phys_P10-P90_coverage 446   NaN    NaN      NaN      NaN      NaN     0.756
+main_pierr15  72                    proxy 448 0.000 -0.601    0.604    0.836  990.053     0.054
+main_pierr15  72                   horner 448 0.000 -0.146    0.423    1.108  257.024     0.143
+main_pierr15  72                      fmb 448 0.089 -0.251    0.452    2.036  414.841     0.118
+main_pierr15  72                     sqrt 448 0.089  0.006    0.415    0.979  344.078     0.127
+main_pierr15  72                     slab 448 0.089  0.345    0.554    1.857  549.070     0.083
+main_pierr15  72                  ml_data 448 0.000  0.017    0.162    0.429  152.863     0.350
+main_pierr15  72                  ml_phys 448 0.000  0.003    0.144    0.396  139.588     0.371
+main_pierr15  72 ml_phys_P10-P90_coverage 448   NaN    NaN      NaN      NaN      NaN     0.797
+main_pierr15 168                    proxy 448 0.000 -0.464    0.492    0.788  765.095     0.054
+main_pierr15 168                   horner 448 0.000 -0.032    0.381    1.420  223.127     0.165
+main_pierr15 168                      fmb 448 0.100 -0.284    0.475    1.234  393.298     0.074
+main_pierr15 168                     sqrt 448 0.100 -0.183    0.332    0.763  322.661     0.123
+main_pierr15 168                     slab 448 0.100  0.247    0.457    1.344  434.296     0.105
+main_pierr15 168                  ml_data 448 0.000  0.013    0.161    0.410  142.781     0.337
+main_pierr15 168                  ml_phys 448 0.000  0.000    0.151    0.397  144.684     0.359
+main_pierr15 168 ml_phys_P10-P90_coverage 448   NaN    NaN      NaN      NaN      NaN     0.795

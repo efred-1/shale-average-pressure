@@ -1,0 +1,9 @@
+Estimator,Nonlinear: median |e|,Nonlinear: bias,Extrapolation: median |e|,Extrapolation: bias
+Proxy,0.694,-0.694,0.574,-0.574
+Horner,0.385,-0.337,0.204,-0.111
+FMB,0.435,-0.005,0.235,-0.133
+Square-root decline,0.379,-0.036,0.534,+0.494
+Slab inversion,0.488,+0.270,0.990,+0.990
+ML-D,0.240,-0.134,0.192,+0.163
+ML-P,0.244,+0.036,0.170,+0.148
+ML-P 80 % interval coverage,0.66,—,0.73,—

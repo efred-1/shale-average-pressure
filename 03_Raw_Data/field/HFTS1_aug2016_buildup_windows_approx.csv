@@ -1,0 +1,11 @@
+well,shut_in,reopened,note
+3SU,2016-08-04 11:00:00,2016-08-05 23:00:00,"automatic detector, hourly data"
+5SM,2016-08-06 11:00:00,2016-08-09 11:00:00,"automatic detector, hourly data"
+5SU,2016-08-06 23:45:00,2016-08-09 23:30:00,"automatic detector, hourly data"
+6SU,2016-08-07 11:45:00,2016-08-11 10:45:00,"automatic detector, hourly data"
+6SM,2016-08-07 23:45:00,2016-08-10 23:15:00,"automatic detector, hourly data"
+7RM,2016-08-08 11:00:00,2016-08-11 23:00:00,"automatic detector, hourly data"
+8SM,2016-08-09 13:15:00,2016-08-12 23:00:00,"automatic detector, hourly data"
+7SU,2016-08-09 23:00:00,2016-08-12 11:00:00,"automatic detector, hourly data"
+8SU,2016-08-09 23:00:00,2016-08-13 11:00:00,"automatic detector, hourly data"
+4SM,2016-08-04 23:00:00,2016-08-09 17:00:00,added manually (missed by detector); truncate at 2016-08-08 12:00 when 4SU reopened

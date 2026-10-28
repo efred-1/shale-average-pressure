@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Average reservoir pressure in multi-fractured shale wells without extended shut-in: code and data"
+abstract: "Closed-form slab buildup theory, a verified finite-volume simulator, physics-constrained machine learning with conformal prediction intervals, and application to HFTS-1 bottomhole-gauge data (Midland Basin)."
+authors:
+  - family-names: "Fred"
+    given-names: "Emmanuel"
+type: software
+license: MIT
+repository-code: "https://github.com/efred-1/shale-average-pressure"
+date-released: "2026-10-28"
+keywords:
+  - reservoir engineering
+  - pressure transient analysis
+  - shale
+  - average reservoir pressure
+  - machine learning
+  - conformal prediction
+  - HFTS-1
