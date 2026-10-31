@@ -1,7 +1,7 @@
 # Estimating average reservoir pressure in shale wells without extended shut-in
 
 Code and data for the study *Estimating average reservoir pressure in multi-fractured shale wells without extended shut-in: closed-form
-buildup theory, physics-informed machine learning and application to HFTS-1*, by Emmanuel Fred. The paper is being prepared for
+buildup theory, physics-constrained machine learning and application to HFTS-1*, by Emmanuel Fred. The paper is being prepared for
 journal submission; the citation will be added here once it is published.
 
 ## The problem
@@ -19,7 +19,7 @@ It does four things:
    root of the slab diffusion time. The decline constant of flowing material balance supplies that time, which gives an estimator
    with no rock, fluid or geometric input.
 3. **Tests estimators on 2,997 verified finite-volume simulations** (finite-conductivity fractures, outer rock, wellbore storage,
-   declining bottomhole pressure) under case-grouped cross-validation, including a physics-informed gradient-boosted model
+   declining bottomhole pressure) under case-grouped cross-validation, including a physics-constrained gradient-boosted model
    (ML-P) with conformal prediction intervals.
 4. **Applies them to public bottomhole-gauge data** from the Hydraulic Fracturing Test Site (HFTS-1), Midland Basin.
 
