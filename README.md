@@ -1,6 +1,6 @@
-# Average reservoir pressure in shale wells without extended shut-in
+# Estimating average reservoir pressure in shale wells without extended shut-in
 
-Code and data for the study *Average reservoir pressure in multi-fractured shale wells without extended shut-in: closed-form
+Code and data for the study *Estimating average reservoir pressure in multi-fractured shale wells without extended shut-in: closed-form
 buildup theory, physics-constrained machine learning and application to HFTS-1*, by Emmanuel Fred. The paper is being prepared for
 journal submission; the citation will be added here once it is published.
 

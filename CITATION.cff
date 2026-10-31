@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "Average reservoir pressure in multi-fractured shale wells without extended shut-in: code and data"
+title: "Estimating average reservoir pressure in multi-fractured shale wells without extended shut-in: code and data"
 abstract: "Closed-form slab buildup theory, a verified finite-volume simulator, physics-constrained machine learning with conformal prediction intervals, and application to HFTS-1 bottomhole-gauge data (Midland Basin)."
 authors:
   - family-names: "Fred"
